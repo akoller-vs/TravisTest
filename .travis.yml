@@ -4,11 +4,13 @@ xcode_project: TravisTest.xcodeproj
 xcode_scheme: TravisTest
 xcode_sdk: iphonesimulator10.3
 
-deploy:
-  provider: script
-  script: scripts/deploy.sh
-  on:
-    branches:
-      only:
-        - master
-        -  /story\/.*/
+script: scripts/deploy.rb
+
+# deploy:
+#   provider: script
+#   script: scripts/deploy.sh
+#   on:
+#     branches:
+#       only:
+#         - master
+#         -  /story\/.*/
