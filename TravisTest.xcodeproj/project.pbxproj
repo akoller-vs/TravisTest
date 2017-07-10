@@ -245,6 +245,7 @@
 				TargetAttributes = {
 					0BC1EA951F13DAA3009FAA4A = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6L45ZMRB4E;
 						ProvisioningStyle = Manual;
 					};
 					0BC1EAAB1F13DAA3009FAA4A = {
@@ -606,12 +607,13 @@
 			baseConfigurationReference = 097ADA55783FD2C00135D6C2 /* Pods-TravisTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6L45ZMRB4E;
 				INFOPLIST_FILE = TravisTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vividseats.TravisTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vividseats.VividSeatsMobile.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "bed8f2ad-7fb4-43f8-b120-0235840b6a42";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.vividseats.VividSeatsMobile.debug";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -621,12 +623,14 @@
 			baseConfigurationReference = 81285A64970EC5A08AD6F9B3 /* Pods-TravisTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 6L45ZMRB4E;
 				INFOPLIST_FILE = TravisTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vividseats.TravisTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vividseats.VividSeatsMobile.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "fcccca94-89d7-4df8-b194-a4b16334f5ac";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.vividseats.VividSeatsMobile.debug";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

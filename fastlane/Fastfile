@@ -16,13 +16,13 @@ default_platform :ios
 lane :beta do
   # build your iOS app
   gym(
-    # scheme: "YourScheme",
+    scheme: "TravisTest",
     export_method: "ad-hoc"
   )
 
   # upload to Beta by Crashlytics
-  crashlytics(
-    api_token: "2a539d9ba9233ca7563a098422f650e5dbb6fbc0",
-    build_secret: "da3a5446326ba6499b8476f80c9c0930a28cb0a2021cdd0b8b0a7ae10c46b1b4"
-  )
+  # crashlytics(
+  #   api_token: "2a539d9ba9233ca7563a098422f650e5dbb6fbc0",
+  #   build_secret: "da3a5446326ba6499b8476f80c9c0930a28cb0a2021cdd0b8b0a7ae10c46b1b4"
+  # )
 end
