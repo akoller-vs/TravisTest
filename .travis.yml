@@ -6,6 +6,9 @@ xcode_sdk: iphonesimulator10.3
 
 deploy:
   provider: script
-  script: bin/deploy.sh
+  script: scripts/deploy.sh
   on:
-    branch: /story\/.*/
+    branches:
+      only:
+        - master
+        -  /story\/.*/

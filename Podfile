@@ -6,6 +6,8 @@ target 'TravisTest' do
   use_frameworks!
 
   # Pods for TravisTest
+  pod 'Fabric'
+  pod 'Crashlytics'
 
   target 'TravisTestTests' do
     inherit! :search_paths

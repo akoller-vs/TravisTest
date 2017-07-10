@@ -29,9 +29,24 @@ xcode-select --install
 </table>
 
 # Available Actions
-### beta
+### develop
 ```
-fastlane beta
+fastlane develop
+```
+Build a develop app
+### qa
+```
+fastlane qa
+```
+
+### production
+```
+fastlane production
+```
+
+### app_store
+```
+fastlane app_store
 ```
 
 
